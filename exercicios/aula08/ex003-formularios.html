@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <div>
+        <form method="get" action="03valor.php">
+            <label for="texto">Texto:</label>
+            <input type="text" name="texto" id="texto">
+
+            <label for="tamanho-fonte">Tamanho da fonte</label>
+            <select name="tamanho-fonte" id="tamanho-fonte">
+                <option value="8pt">8pt</option>
+                <option value="10pt">10pt</option>
+                <option value="14pt">14pt</option>
+                <option value="20pt">20pt</option>
+                <option value="40pt">40pt</option>
+            </select>
+
+            <label for="cor-fonte">Cor da fonte</label>
+            <input type="color" name="cor-fonte" id="cor-fonte">
+
+            <input type="submit" value="Gerar texto">
+        </form>
+    </div>
+</body>
+</html>

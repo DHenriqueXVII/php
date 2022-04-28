@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form method="post" action="02valor.php">
+        <p>Informe o seu nome:</p>
+
+        <input type="text" name="nome">
+
+        <p>Informe o ano de seu nascimento:</p>
+
+        <input type="text" name="ano-nascimento">
+
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" id="masculino" value="masculino" checked>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="sexo" id="feminino" value="feminino">
+        </fieldset>
+
+        <br><input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
